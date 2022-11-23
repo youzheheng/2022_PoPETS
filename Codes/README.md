@@ -1,5 +1,6 @@
 # Requirement
 The code has been tested on:
+- Ubuntu 20.04
 - Python 3.8.10
 
 Additionally, the following packages are used: 
