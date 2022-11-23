@@ -12,6 +12,7 @@ Additionally, they can also be downloaded from [here](https://github.com/youzheh
 
 # Example Call
 The codes can be run on terminal, typing the following:
+
 python3 graph-attack-pprl-origin.py data/euro-census.csv 0 , True [1,2,3,4,5] 2000 data/euro-census.csv 0 , 
 True [1,2,3,4,5] 2000 2 False dice True bf rh 15 500 clk none [] 100 500 5 dice
 
