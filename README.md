@@ -1,4 +1,4 @@
-# 2022_PoPETS
+# Strengthening Privacy-Preserving Record Linkage using Diffusion
 Source code and data for our PoPETS 2022 paper 'Strengthening Privacy-Preserving Record Linkage using Diffusion'
 Abstract: Linking personal records from different databases is an essential step in many data workflows. 
 Privacy-Preserving Record-Linkage (PPRL) techniques have been developed to link persons despite errors in the identifiers without violating their privacy.
