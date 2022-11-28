@@ -22,4 +22,4 @@ True [1,2,3,4,5] 2000 2 False dice True bf rh 15 500 clk none [] 100 500 5 dice
 All our code is licensed as free software, under the GPLv3 license.
  
 # Important Notes
-The codes here were originated from Anushka Vidanage and Peter Christen, which is publicly available at: 
+The codes here were originated from Anushka Vidanage and Peter Christen, which could be requested via email: anushka.vidanage@anu.edu.au
