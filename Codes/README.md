@@ -11,12 +11,13 @@ Additionally, the following packages are used:
 The dataset is contained in 'Codes/data'.
 Additionally, they can also be downloaded from [here](https://github.com/youzheheng/2022_PoPETS/tree/main/Codes/data).
 # Docker
-This requires [Docker](https://www.docker.com/). First, ensure you have downloaded the data, all python files and create the empty folders. To initialize the experiments, simply run:
+This requires [Docker](https://www.docker.com/). First, ensure you have downloaded it. To initialize the experiments, simply run:
 ```docker
 docker build -t myimage1:1.0 .
 
 docker run myimage1:1.0
 ```
+All the code files and data are already included in it.
 
 # Example Call
 The codes can be run on terminal, typing the following:
