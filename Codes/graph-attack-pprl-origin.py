@@ -5596,7 +5596,7 @@ def learn_embeddings(walks, num_dimensions, window_size, num_workers, num_iter):
   start_time = time.time()
   
   walks = [list(map(str, walk)) for walk in walks]
-  model = Word2Vec(walks, size=num_dimensions, window=window_size, min_count=0, sg=1, workers=num_workers, iter=num_iter)
+  model = Word2Vec(walks, vector_size=num_dimensions, window=window_size, min_count=0, sg=1, workers=num_workers, iter=num_iter)
   
   learn_time = time.time() - start_time
   print('    Learning node embeddings took %.3f seconds' %learn_time)
