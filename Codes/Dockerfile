@@ -133,7 +133,7 @@ RUN pip3 install scikit-learn scipy matplotlib numpy
 RUN pip3 install sklearn
 RUN pip3 install bitarray
 RUN pip3 install sets
-RUN pip3 install gensim
+RUN pip3 install gensim==3.8.3
 RUN mkdir /app/exp/data
 COPY data/euro-census.csv /app/exp/data/
 RUN mkdir /app/exp/feats
