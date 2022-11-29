@@ -10,13 +10,20 @@ Additionally, the following packages are used:
 # Dataset
 The dataset is contained in 'Codes/data'.
 Additionally, they can also be downloaded from [here](https://github.com/youzheheng/2022_PoPETS/tree/main/Codes/data).
+# Docker
+This requires [Docker](https://www.docker.com/). First, ensure you have downloaded the data, all python files and create the empty folders. To initialize the experiments, simply run:
+```docker
+docker build -t myimage1:1.0 .
+
+docker run myimage1:1.0
+```
 
 # Example Call
 The codes can be run on terminal, typing the following:
-
+```python
 python3 graph-attack-pprl-origin.py data/euro-census.csv 0 , True [1,2,3,4,5] 2000 data/euro-census.csv 0 , 
 True [1,2,3,4,5] 2000 2 False dice True bf rh 15 500 clk none [] 100 500 5 dice
-
+```
 
 # License
 All our code is licensed as free software, under the GPLv3 license.
