@@ -120,7 +120,9 @@ python3 graph-attack-pprl-origin.py data/euro-census.csv 0 , True [1,2,3,4,5] 20
 True [1,2,3,4,5] 2000 2 False dice True bf rh 15 500 clk none [] 100 500 1 dice
 ```
 # Explanation of the output(s)
+When one call/command is executed, roughly 78 different re-identification numbers will be recorded using different parameters of the three matching algorithms. The detailed results will be recorded into one file and the overall results will be recorded into another file.
 
+In total, there should be two result files. One is named by result_(nr. records)_(nr. records) and the other one is named by the date of the experiment. The second file should be in the folder named 'results' and that's the most important result file. The second and third column of this file is the maximum re-identification when executing one command and the average re-identification.
 
 # License
 All our code is licensed as free software, under the GPLv3 license.
