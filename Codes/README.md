@@ -109,7 +109,7 @@ All the code files and data are already included in it.
 The codes can be run on terminal, typing the following:
 ```python
 python3 graph-attack-pprl-origin.py data/euro-census.csv 0 , True [1,2,3,4,5] 2000 data/euro-census.csv 0 , 
-True [1,2,3,4,5] 2000 2 False dice True bf rh 5 500 clk none [] 100 500 5 dice
+True [1,2,3,4,5] 2000 2 False dice True bf rh 5 1000 clk none [] 100 1000 20 dice
 ```
 ```python
 python3 graph-attack-pprl-origin.py data/euro-census.csv 0 , True [1,2,3,4,5] 2000 data/euro-census.csv 0 , 
@@ -123,6 +123,15 @@ True [1,2,3,4,5] 2000 2 False dice True bf rh 5 500 clk none [] 100 500 1 dice
 When one call/command is executed, roughly 78 different re-identification numbers will be recorded using different parameters of the three matching algorithms. The detailed results will be recorded into one file and the overall results will be recorded into another file.
 
 In total, there should be two result files. One is named by result_(nr. records)_(nr. records) and the other one is named by the date of the experiment. The second file should be in the folder named 'results' and that's the most important result file. The second and third column of this file is the maximum re-identification when executing one command and the average re-identification.
+
+# Link of results with the paper
+The command of the first example run shows the experiment using 'bf length 1000, 5 hash functions, 100% overlap rate and 20 diffusion bits'. The second result file shows
+```
+Correlation          Max re-id    Avg. re-id     Encode_method   overlap    Hash functions   Length of encoding           Diffusion bits
+0.308292534025985	83	31.6923076923077	ran	   100	         5	               1000	               20
+```
+Correlation as well as (Max re-id/1000 * 100%) are shown in the paper in Figure 8. 
+
 
 # License
 All our code is licensed as free software, under the GPLv3 license.
