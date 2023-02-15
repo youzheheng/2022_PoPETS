@@ -109,15 +109,15 @@ All the code files and data are already included in it.
 The codes can be run on terminal, typing the following:
 ```python
 python3 graph-attack-pprl-origin.py data/euro-census.csv 0 , True [1,2,3,4,5] 2000 data/euro-census.csv 0 , 
-True [1,2,3,4,5] 2000 2 False dice True bf rh 15 500 clk none [] 100 500 5 dice
+True [1,2,3,4,5] 2000 2 False dice True bf rh 5 500 clk none [] 100 500 5 dice
 ```
 ```python
 python3 graph-attack-pprl-origin.py data/euro-census.csv 0 , True [1,2,3,4,5] 2000 data/euro-census.csv 0 , 
-True [1,2,3,4,5] 2000 2 False dice True bf rh 15 500 clk none [] 95 500 10 dice
+True [1,2,3,4,5] 2000 2 False dice True bf rh 10 500 clk none [] 95 500 10 dice
 ```
 ```python
 python3 graph-attack-pprl-origin.py data/euro-census.csv 0 , True [1,2,3,4,5] 2000 data/euro-census.csv 0 , 
-True [1,2,3,4,5] 2000 2 False dice True bf rh 15 500 clk none [] 100 500 1 dice
+True [1,2,3,4,5] 2000 2 False dice True bf rh 5 500 clk none [] 100 500 1 dice
 ```
 # Explanation of the output(s)
 When one call/command is executed, roughly 78 different re-identification numbers will be recorded using different parameters of the three matching algorithms. The detailed results will be recorded into one file and the overall results will be recorded into another file.
