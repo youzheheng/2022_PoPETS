@@ -131,7 +131,7 @@ Correlation          Max re-id    Avg. re-id     Encode_method   overlap    Hash
 0.308292534025985	83	31.6923076923077	ran	   100	         5	               1000	               20
 ```
 Correlation as well as (Max re-id/1000 * 100%) are shown in the paper in Figure 8. 
-
+![You can also see it here](https://github.com/youzheheng/2022_PoPETS/edit/main/Codes/result_link.jpg?raw=true)
 
 # License
 All our code is licensed as free software, under the GPLv3 license.
